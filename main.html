@@ -8,16 +8,25 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	function functionName(){
-	    alert(arguments.callee.name);
-	}
-	function Acciojob(){
-	alert(arguments.callee.name);
-	}
-	functionName();
-	Acciojob();
+	function functionName()
+{
+		alert(arguments.callee.name);
+}
+
+function AccioJob()
+{
+		alert(arguments.callee.name);
+}
+
+functionName();       
+
+AccioJob();
     <script type="text/javascript" src="./script.js">
-</script>
+		var functionName = function() {
+    alert(functionName.name);
+};
+
+
 functionName();
 </body>
 

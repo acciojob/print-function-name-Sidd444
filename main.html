@@ -9,14 +9,16 @@
 <body>
 	<!-- the entire body must be written by student -->
 	function functionName(){
-	    alert(function.callee.name);
+	    alert(arguments.callee.name);
 	}
 	function Acciojob(){
-	alert(function.callee.name);
+	alert(arguments.callee.name);
 	}
+	functionName();
+	Acciojob();
     <script type="text/javascript" src="./script.js">
 </script>
-
+functionName();
 </body>
 
 </html>
